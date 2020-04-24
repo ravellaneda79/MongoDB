@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC_MongoDb", "PoC_MongoDb\PoC_MongoDb.csproj", "{8DA1C041-7B64-4C8B-BA16-2A0D2A031C79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDbAccess", "MongoCRUD\MongoDbAccess.csproj", "{28C9CD5D-64C1-426B-950A-D51BE7C7E656}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoCRUDTests", "MongoCRUDTests\MongoCRUDTests.csproj", "{DB5E8DB1-7C45-4923-85B5-AB6CAE533C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA1C041-7B64-4C8B-BA16-2A0D2A031C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA1C041-7B64-4C8B-BA16-2A0D2A031C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA1C041-7B64-4C8B-BA16-2A0D2A031C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA1C041-7B64-4C8B-BA16-2A0D2A031C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C9CD5D-64C1-426B-950A-D51BE7C7E656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C9CD5D-64C1-426B-950A-D51BE7C7E656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C9CD5D-64C1-426B-950A-D51BE7C7E656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C9CD5D-64C1-426B-950A-D51BE7C7E656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5E8DB1-7C45-4923-85B5-AB6CAE533C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5E8DB1-7C45-4923-85B5-AB6CAE533C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5E8DB1-7C45-4923-85B5-AB6CAE533C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5E8DB1-7C45-4923-85B5-AB6CAE533C67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B330ACE0-48A7-44AD-9713-03A97E769C40}
+	EndGlobalSection
+EndGlobal
